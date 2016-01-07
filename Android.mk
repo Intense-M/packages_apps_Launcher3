@@ -41,11 +41,11 @@ LOCAL_PROTOC_OPTIMIZE_TYPE := nano
 LOCAL_PROTOC_FLAGS := --proto_path=$(LOCAL_PATH)/protos/
 
 #LOCAL_SDK_VERSION := current
-LOCAL_PACKAGE_NAME := Launcher3
+LOCAL_PACKAGE_NAME := IntenseLauncher
 LOCAL_PRIVILEGED_MODULE := true
 #LOCAL_CERTIFICATE := shared
 
-LOCAL_OVERRIDES_PACKAGES := Home Launcher2
+LOCAL_AAPT_FLAGS += --rename-manifest-package com.intense.intenselauncher
 
 include $(BUILD_PACKAGE)
 
