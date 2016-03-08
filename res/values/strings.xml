@@ -31,7 +31,7 @@
     <string name="receive_first_load_broadcast_permission" translatable="false">com.android.launcher3.permission.RECEIVE_FIRST_LOAD_BROADCAST</string>
 
     <!-- Application name -->
-    <string name="application_name">Launcher3</string>
+    <string name="application_name">IntenseLauncher</string>
     <!-- Default folder name -->
     <string name="folder_name"></string>
     <!-- Work folder name -->
@@ -128,7 +128,7 @@
 
     <!-- Clings -->
     <!-- The title text for the workspace cling [CHAR_LIMIT=30] -->
-    <string name="first_run_cling_title">Welcome</string>
+    <string name="first_run_cling_title">Welcome to Intense-M</string>
     <!-- The title text for the migration cling [CHAR_LIMIT=30] -->
     <string name="migration_cling_title">Copy your app icons</string>
     <!-- The description of what migration does [CHAR_LIMIT=70] -->
